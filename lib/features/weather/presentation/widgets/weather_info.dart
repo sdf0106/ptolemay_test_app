@@ -20,7 +20,7 @@ class WeatherInfo extends StatelessWidget {
           },
           weatherGotten: (weather) {
             return Text(
-              '${weather.current.tempC} - celcium',
+              '${weather.location.lat} - celcium',
               style: const TextStyle(fontSize: 20),
             );
           },
